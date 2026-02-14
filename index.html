@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   <title>Lucky Star A to Z Key Maker – Premium Locksmith Services Mumbai</title>
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -33,15 +33,14 @@
       padding: 0 30px;
     }
 
-    /* ===== COLOR PALETTE - Rich, Premium, Inviting ===== */
+    /* ===== COLOR PALETTE ===== */
     :root {
-      --deep-navy: #13294b;      /* rich navy */
-      --royal-gold: #c6a15b;      /* elegant gold */
-      --soft-cream: #faf6ef;      /* warm cream */
-      --sage-green: #5b7f6e;      /* sophisticated green */
-      --terracotta: #c46b4e;      /* warm terracotta */
-      --slate-blue: #4a637a;       /* muted blue */
-      --charcoal: #2c3e4e;         /* soft charcoal */
+      --deep-navy: #13294b;
+      --royal-gold: #c6a15b;
+      --soft-cream: #faf6ef;
+      --sage-green: #5b7f6e;
+      --slate-blue: #4a637a;
+      --charcoal: #2c3e4e;
       --pure-white: #ffffff;
       --light-gray: #f0ece5;
     }
@@ -53,7 +52,7 @@
       100% { transform: translateY(0px); }
     }
 
-    /* ===== TOP BAR - Elegant Info Strip ===== */
+    /* ===== TOP BAR ===== */
     .info-bar {
       background: var(--deep-navy);
       color: rgba(255,255,255,0.9);
@@ -67,12 +66,14 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+      gap: 15px;
     }
 
     .info-item {
       display: flex;
       align-items: center;
       gap: 10px;
+      flex-wrap: wrap;
     }
 
     .info-item i {
@@ -90,7 +91,7 @@
       letter-spacing: 0.5px;
     }
 
-    /* ===== HEADER - Premium Logo Area ===== */
+    /* ===== HEADER ===== */
     .header {
       background: var(--pure-white);
       padding: 25px 0;
@@ -102,12 +103,14 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
+      gap: 20px;
     }
 
     .logo-block {
       display: flex;
       align-items: center;
       gap: 20px;
+      flex-wrap: wrap;
     }
 
     .logo-icon {
@@ -159,7 +162,7 @@
       font-size: 1.2rem;
     }
 
-    /* ===== NAVIGATION - Simplified with 4 buttons ===== */
+    /* ===== NAVIGATION ===== */
     .nav {
       background: var(--pure-white);
       padding: 15px 0;
@@ -171,6 +174,7 @@
       display: flex;
       gap: 50px;
       justify-content: center;
+      flex-wrap: wrap;
     }
 
     .nav a {
@@ -181,7 +185,6 @@
       padding: 5px 0;
       border-bottom: 3px solid transparent;
       transition: 0.2s;
-      cursor: pointer;
     }
 
     .nav a:hover {
@@ -189,7 +192,7 @@
       color: var(--deep-navy);
     }
 
-    /* ===== HERO - Home Section ===== */
+    /* ===== HERO SECTION ===== */
     .hero {
       background: linear-gradient(135deg, var(--deep-navy) 0%, #1e3b4f 100%);
       position: relative;
@@ -197,21 +200,7 @@
       padding: 80px 0;
     }
 
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.1"><path d="M20,20 L80,20 L80,80 L20,80 Z" fill="none" stroke="%23c6a15b" stroke-width="2"/><circle cx="50" cy="50" r="15" fill="none" stroke="%23c6a15b" stroke-width="2"/></svg>');
-      background-size: 60px;
-      opacity: 0.1;
-    }
-
     .hero .container {
-      position: relative;
-      z-index: 2;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 50px;
@@ -250,13 +239,13 @@
       font-size: 1.2rem;
       margin-bottom: 35px;
       opacity: 0.95;
-      line-height: 1.6;
     }
 
     .hero-stats {
       display: flex;
       gap: 40px;
       margin-bottom: 40px;
+      flex-wrap: wrap;
     }
 
     .stat-item {
@@ -303,7 +292,7 @@
       margin-right: 10px;
     }
 
-    /* ===== PHONE CARDS - Beautiful Number Display ===== */
+    /* ===== PHONE CARDS ===== */
     .phone-showcase {
       background: var(--pure-white);
       padding: 60px 0;
@@ -411,7 +400,6 @@
     .expertise {
       background: var(--light-gray);
       padding: 80px 0;
-      position: relative;
     }
 
     .expertise-grid {
@@ -506,7 +494,7 @@
       opacity: 0.9;
     }
 
-    /* ===== WORK GALLERY - 30 Non-Clickable Images ===== */
+    /* ===== WORK GALLERY ===== */
     .work {
       padding: 80px 0;
       background: var(--pure-white);
@@ -556,7 +544,6 @@
       z-index: 2;
     }
 
-    /* View More Button */
     .view-more-container {
       text-align: center;
       margin-top: 40px;
@@ -581,7 +568,7 @@
       color: var(--deep-navy);
     }
 
-    /* ===== LOCATION / CONTACT SECTION ===== */
+    /* ===== CONTACT SECTION ===== */
     .contact {
       background: var(--soft-cream);
       padding: 80px 0;
@@ -615,6 +602,15 @@
       color: var(--royal-gold);
     }
 
+    .address-block a {
+      color: var(--deep-navy);
+      text-decoration: none;
+    }
+
+    .address-block a:hover {
+      color: var(--royal-gold);
+    }
+
     .hours-block {
       background: var(--light-gray);
       padding: 25px;
@@ -633,6 +629,30 @@
       width: 100%;
       height: 100%;
       border: 0;
+    }
+
+    .map-link {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .map-link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--deep-navy);
+      color: white;
+      padding: 10px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s;
+      border: 2px solid var(--royal-gold);
+    }
+
+    .map-link a:hover {
+      background: var(--royal-gold);
+      color: var(--deep-navy);
     }
 
     /* ===== FOOTER ===== */
@@ -669,6 +689,7 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      transition: 0.2s;
     }
 
     .footer-numbers a:hover {
@@ -700,12 +721,12 @@
       color: rgba(255,255,255,0.6);
     }
 
-    /* ===== SECTION IDs for Navigation ===== */
+    /* ===== SECTION IDs ===== */
     #home, #expertise, #work, #contact {
       scroll-margin-top: 100px;
     }
 
-    /* ===== RESPONSIVE ===== */
+    /* ===== RESPONSIVE DESIGN ===== */
     @media (max-width: 1200px) {
       .work-grid {
         grid-template-columns: repeat(4, 1fr);
@@ -725,25 +746,66 @@
       .work-grid {
         grid-template-columns: repeat(3, 1fr);
       }
+      .hero-content h2 {
+        font-size: 2.8rem;
+      }
     }
 
     @media (max-width: 768px) {
       .work-grid {
         grid-template-columns: repeat(2, 1fr);
       }
+      .hero-stats {
+        justify-content: center;
+      }
+      .floating-card {
+        bottom: -10px;
+        left: -10px;
+        padding: 15px;
+      }
     }
 
     @media (max-width: 640px) {
+      .container {
+        padding: 0 20px;
+      }
+      
       .phone-grid, .expertise-grid, .experience-grid, .work-grid, .footer-grid {
         grid-template-columns: 1fr;
       }
+      
       .info-bar .container {
         flex-direction: column;
-        gap: 10px;
+        text-align: center;
       }
+      
       .nav .container {
-        gap: 30px;
-        flex-wrap: wrap;
+        gap: 20px;
+      }
+      
+      .hero-content h2 {
+        font-size: 2.2rem;
+      }
+      
+      .logo-block {
+        justify-content: center;
+      }
+      
+      .logo-text h1 {
+        font-size: 1.8rem;
+      }
+      
+      .since-badge {
+        width: 100%;
+        justify-content: center;
+      }
+      
+      .contact-card {
+        padding: 30px;
+      }
+      
+      .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   </style>
@@ -784,7 +846,7 @@
   </div>
 </header>
 
-<!-- Navigation with 4 Clickable Buttons -->
+<!-- Navigation -->
 <nav class="nav">
   <div class="container">
     <a href="#home">Home</a>
@@ -844,7 +906,7 @@
         <div class="phone-number">
           <a href="tel:+919819258645">+91 98192 58645</a>
         </div>
-        <span class="phone-tag whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp & Calls</span>
+        <a href="https://wa.me/919819258645?text=Hi%20Lucky%20Star!%20I%20need%20locksmith%20service%20urgently." class="phone-tag whatsapp" style="text-decoration: none; display: inline-block;"><i class="fab fa-whatsapp"></i> WhatsApp & Calls</a>
       </div>
       
       <!-- Backup Line 1 - Call Only -->
@@ -959,7 +1021,7 @@
   </div>
 </section>
 
-<!-- Work Gallery Section - 30 Non-Clickable Images -->
+<!-- Work Gallery Section -->
 <section id="work" class="work">
   <div class="container">
     <div class="section-header">
@@ -968,185 +1030,39 @@
     </div>
     
     <div class="work-grid" id="workGrid">
-      <!-- Image 1 -->
-      <div class="work-item">
-        <img src="work1.jpeg" alt="Car Key Programming">
-        <div class="work-category">Automotive</div>
-      </div>
+      <!-- Image 1 to 10 (Visible) -->
+      <div class="work-item"><img src="work1.jpeg" alt="Car Key Programming"><div class="work-category">Car Key Programming</div></div>
+      <div class="work-item"><img src="work2.jpeg" alt="Bike Key Cutting"><div class="work-category">Car Key Replacement</div></div>
+      <div class="work-item"><img src="work3.jpeg" alt="Lock Installation"><div class="work-category">Car Key Programming</div></div>
+      <div class="work-item"><img src="work4.jpeg" alt="Transponder Key"><div class="work-category">Car ECU Programming</div></div>
+      <div class="work-item"><img src="work5.jpeg" alt="Commercial Security"><div class="work-category">Car ECU Programming</div></div>
+      <div class="work-item"><img src="work6.jpeg" alt="Emergency Lockout"><div class="work-category">Key Cuttinng Equipments</div></div>
+      <div class="work-item"><img src="work7.jpeg" alt="Audi Key"><div class="work-category">Precision Key Cutting</div></div>
+      <div class="work-item"><img src="work8.jpeg" alt="Master Key"><div class="work-category">New Key Building</div></div>
+      <div class="work-item"><img src="work9.jpeg" alt="Scooter Key"><div class="work-category">Equipments</div></div>
+      <div class="work-item"><img src="work10.jpeg" alt="High Security Lock"><div class="work-category">Machinery</div></div>
       
-      <!-- Image 2 -->
-      <div class="work-item">
-        <img src="work2.jpeg" alt="Bike Key Cutting">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 3 -->
-      <div class="work-item">
-        <img src="work3.jpeg" alt="Lock Installation">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 4 -->
-      <div class="work-item">
-        <img src="work4.jpeg" alt="Transponder Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 5 -->
-      <div class="work-item">
-        <img src="work5.jpeg" alt="Commercial Security">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 6 -->
-      <div class="work-item">
-        <img src="work6.jpeg" alt="Emergency Lockout">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 7 -->
-      <div class="work-item">
-        <img src="work7.jpeg" alt="Audi Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 8 -->
-      <div class="work-item">
-        <img src="work8.jpeg" alt="Master Key">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 9 -->
-      <div class="work-item">
-        <img src="work9.jpeg" alt="Scooter Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 10 -->
-      <div class="work-item">
-        <img src="work10.jpeg" alt="High Security Lock">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 11 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work11.jpeg" alt="Mercedes Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 12 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work12.jpeg" alt="Door Lock">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 13 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work13.jpeg" alt="Access Control">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 14 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work14.jpeg" alt="Toyota Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 15 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work15.jpeg" alt="Safe Lock">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 16 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work16.jpeg" alt="Office Rekeying">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 17 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work17.jpeg" alt="Honda Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 18 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work18.jpeg" alt="Glass Door Lock">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 19 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work19.jpeg" alt="Jaguar Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 20 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work20.jpeg" alt="Smart Lock">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 21 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work21.jpeg" alt="Key Cutting">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 22 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work22.jpeg" alt="Digital Lock">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 23 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work23.jpeg" alt="Godrej Lock">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 24 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work24.jpeg" alt="Mahindra Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 25 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work25.jpeg" alt="Biometric">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 26 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work26.jpeg" alt="Suzuki Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 27 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work27.jpeg" alt="French Door">
-        <div class="work-category">Residential</div>
-      </div>
-      
-      <!-- Image 28 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work28.jpeg" alt="Showroom Lock">
-        <div class="work-category">Commercial</div>
-      </div>
-      
-      <!-- Image 29 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work29.jpeg" alt="Hyundai Key">
-        <div class="work-category">Automotive</div>
-      </div>
-      
-      <!-- Image 30 (Hidden initially) -->
-      <div class="work-item hidden-work">
-        <img src="work30.jpeg" alt="Main Door Lock">
-        <div class="work-category">Residential</div>
-      </div>
+      <!-- Images 11 to 30 (Hidden) -->
+      <div class="work-item hidden-work"><img src="work11.jpeg" alt="Mercedes Key"><div class="work-category">Smart Door Lock Installation</div></div>
+      <div class="work-item hidden-work"><img src="work12.jpeg" alt="Door Lock"><div class="work-category">Residential Door Lock</div></div>
+      <div class="work-item hidden-work"><img src="work13.jpeg" alt="Access Control"><div class="work-category">Residential Door Lock</div></div>
+      <div class="work-item hidden-work"><img src="work14.jpeg" alt="Toyota Key"><div class="work-category">Residential Door Lock</div></div>
+      <div class="work-item hidden-work"><img src="work15.jpeg" alt="Safe Lock"><div class="work-category">Commmercial Door Lock</div></div>
+      <div class="work-item hidden-work"><img src="work16.jpeg" alt="Office Rekeying"><div class="work-category">Types of Vehicle Keys</div></div>
+      <div class="work-item hidden-work"><img src="work17.jpeg" alt="Honda Key"><div class="work-category">Types of Door Keys</div></div>
+      <div class="work-item hidden-work"><img src="work18.jpeg" alt="Glass Door Lock"><div class="work-category">Variety of Keys</div></div>
+      <div class="work-item hidden-work"><img src="work19.jpeg" alt="Jaguar Key"><div class="work-category">Royal Enfield Key Replacement</div></div>
+      <div class="work-item hidden-work"><img src="work20.jpeg" alt="Smart Lock"><div class="work-category">Honda Key</div></div>
+      <div class="work-item hidden-work"><img src="work21.jpeg" alt="Key Cutting"><div class="work-category">Yamaha Key</div></div>
+      <div class="work-item hidden-work"><img src="work22.jpeg" alt="Digital Lock"><div class="work-category">Suzuki Key Replacement</div></div>
+      <div class="work-item hidden-work"><img src="work23.jpeg" alt="Godrej Lock"><div class="work-category">Royal Enfield Key</div></div>
+      <div class="work-item hidden-work"><img src="work24.jpeg" alt="Mahindra Key"><div class="work-category">On-site Lock Opening</div></div>
+      <div class="work-item hidden-work"><img src="work25.jpeg" alt="Biometric"><div class="work-category">Door Lock Opening</div></div>
+      <div class="work-item hidden-work"><img src="work26.jpeg" alt="Suzuki Key"><div class="work-category">On-site Car Key Programming</div></div>
+      <div class="work-item hidden-work"><img src="work27.jpeg" alt="French Door"><div class="work-category">Emergency Car Key Service</div></div>
+      <div class="work-item hidden-work"><img src="work28.jpeg" alt="Showroom Lock"><div class="work-category">Home Key Cutting</div></div>
+      <div class="work-item hidden-work"><img src="work29.jpeg" alt="Hyundai Key"><div class="work-category">Key Dupliction</div></div>
+      <div class="work-item hidden-work"><img src="work30.jpeg" alt="Main Door Lock"><div class="work-category">Remote Key Programmings</div></div>
     </div>
     
     <div class="view-more-container">
@@ -1157,7 +1073,7 @@
   </div>
 </section>
 
-<!-- Contact Section -->
+<!-- Contact Section with Correct Map -->
 <section id="contact" class="contact">
   <div class="container">
     <div class="contact-card">
@@ -1170,8 +1086,8 @@
         <div class="address-block">
           <i class="fas fa-phone-alt"></i>
           <div>
-            <p><strong>Primary:</strong> +91 98192 58645 (WhatsApp)</p>
-            <p><strong>Alternate:</strong> +91 99877 12589 | +91 84528 64379</p>
+            <p><strong>Primary:</strong> <a href="tel:+919819258645">+91 98192 58645</a> (WhatsApp)</p>
+            <p><strong>Alternate:</strong> <a href="tel:+919987712589">+91 99877 12589</a> | <a href="tel:+918452864379">+91 84528 64379</a></p>
           </div>
         </div>
         <div class="hours-block">
@@ -1181,9 +1097,15 @@
             <p>7 days a week • Including holidays • Emergency service always available</p>
           </div>
         </div>
+        <div class="map-link">
+          <a href="https://maps.app.goo.gl/RxhH7Gnz3JpeN9xp7" target="_blank">
+            <i class="fas fa-map-marked-alt"></i> Open in Google Maps
+          </a>
+        </div>
       </div>
       <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1123456789!2d72.827345678901!3d19.112345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x12345abcdef!2sNear%20Muslim%20Kabristan%2C%20Manish%20Nagar%2C%20Four%20Bunglows!5e0!3m2!1sen!2sin!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
+        <!-- Correct Google Maps Embed for Elegance Location -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7539.191835557351!2d72.825416!3d19.125375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b61f1791eba3%3A0xb5529de0221d5eb9!2sElegance%20-%20A%20Legacy%20Of%20Style!5e0!3m2!1sen!2sin!4v1771085383731!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
@@ -1209,7 +1131,7 @@
       <div>
         <h5>Contact Numbers</h5>
         <ul class="footer-numbers">
-          <li><a href="tel:+919819258645"><i class="fab fa-whatsapp"></i> +91 98192 58645</a></li>
+          <li><a href="https://wa.me/919819258645?text=Hi%20Lucky%20Star!%20I%20need%20locksmith%20service%20urgently." target="_blank"><i class="fab fa-whatsapp"></i> +91 98192 58645</a></li>
           <li><a href="tel:+919987712589"><i class="fas fa-phone"></i> +91 99877 12589</a></li>
           <li><a href="tel:+918452864379"><i class="fas fa-phone"></i> +91 84528 64379</a></li>
         </ul>
@@ -1217,6 +1139,11 @@
       <div>
         <h5>Location</h5>
         <p style="opacity: 0.8;"><i class="fas fa-map-marker-alt" style="color: var(--royal-gold);"></i> Near Muslim Kabristan, Manish Nagar Gurudwara, Four Bunglows, Mumbai 400053</p>
+        <p style="margin-top: 10px;">
+          <a href="https://maps.app.goo.gl/RxhH7Gnz3JpeN9xp7" target="_blank" style="color: var(--royal-gold); text-decoration: none;">
+            <i class="fas fa-directions"></i> Get Directions
+          </a>
+        </p>
       </div>
     </div>
     <div class="copyright">
@@ -1267,6 +1194,43 @@
   .work-item {
     display: block;
     cursor: default;
+  }
+
+  /* Fix for WhatsApp link styling */
+  .phone-tag.whatsapp {
+    background: #25D366;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+
+  .phone-tag.whatsapp:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+
+  /* Map link styling */
+  .map-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--deep-navy);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+    border: 2px solid var(--royal-gold);
+    margin-top: 20px;
+  }
+
+  .map-link a:hover {
+    background: var(--royal-gold);
+    color: var(--deep-navy);
   }
 </style>
 
